@@ -16,12 +16,12 @@
   width: 220px;
   list-style: none;
   text-align: center;
-  transition: all 0.2s;
+  transition: transform 0.3s;
 }
 
 .countries__item:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.10);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
 
 .countries__flag {
@@ -41,4 +41,3 @@
   color: var(--text-color);
   margin-bottom: 7px;
 }
-

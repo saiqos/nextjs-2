@@ -1,13 +1,12 @@
-.homeTitle{
-background-color: var(--bg-color);
-color: var(--text-color);
-text-align: center;
-padding: 15px 0;
-transition: 0.3s all;
+.homeTitle {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 15px 0;
 }
 
-@media(max-width: 635px){
-  .homeTitle{
+@media (max-width: 635px) {
+  .homeTitle {
     font-size: 24px;
-}
+  }
 }

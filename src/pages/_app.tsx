@@ -6,9 +6,8 @@ import type { AppProps } from "next/app";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <FavoriteCountriesProvider>
-    <Navbar />
-    <Component {...pageProps} />
+      <Navbar />
+      <Component {...pageProps} />
     </FavoriteCountriesProvider>
-  
-  )
+  );
 }

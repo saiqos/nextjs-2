@@ -1,25 +1,25 @@
-.heartButtonWrapper{
-width: 100%;
-margin-top: 10px;
+.heartButtonWrapper {
+  width: 100%;
+  margin-top: 10px;
 }
-.heartIcon{
-    fill: var(--heart-color);
-width: 30px;
-height: 30px;
-transition: 0.2s all;
-}
-
-.heartButton{
-cursor: pointer;
-background: none;
-border: none;
+.heartIcon {
+  fill: var(--heart-color);
+  width: 30px;
+  height: 30px;
+  transition: 0.2s all;
 }
 
-.heartButton:hover .heartIcon{
-fill: tomato;
-color: #fff;
+.heartButton {
+  cursor: pointer;
+  background: none;
+  border: none;
 }
 
-.heartIconActive{
-fill: red;
+.heartButton:hover .heartIcon {
+  fill: tomato;
+  color: #fff;
+}
+
+.heartIconActive {
+  fill: red;
 }

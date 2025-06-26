@@ -31,9 +31,9 @@
   color: var(--text-color);
 }
 
-@media(max-width: 420px){
-  .flag{
-  width: 220px;
-  object-fit: cover;
+@media (max-width: 420px) {
+  .flag {
+    width: 220px;
+    object-fit: cover;
   }
 }
