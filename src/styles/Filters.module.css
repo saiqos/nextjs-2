@@ -1,0 +1,23 @@
+.filters{
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  transition: 0.3s all;
+}
+
+.input, .select {
+  padding: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--input-bg);
+  color: var(--input-text);
+  min-width: 15%;
+  transition: 0.3s all;
+}
+
+.input::placeholder {
+  color: var(--input-text);
+}

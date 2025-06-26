@@ -1,0 +1,13 @@
+.errorTitle{
+    color: tomato;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.errorSubtitle{
+    color: rgb(255, 118, 94);
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+}

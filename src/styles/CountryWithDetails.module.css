@@ -1,0 +1,39 @@
+.detailsContainer {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: var(--card-box-shadow);
+  max-width: 600px;
+  margin: 32px auto;
+  text-align: center;
+}
+
+.flag {
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.capital {
+  font-size: 20px;
+  margin: 16px 0;
+}
+
+.info p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: var(--text-color);
+}
+
+@media(max-width: 420px){
+  .flag{
+  width: 220px;
+  object-fit: cover;
+  }
+}
